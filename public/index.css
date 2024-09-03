@@ -1,0 +1,191 @@
+#root {
+    padding: 30px;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  nav > a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+    margin-right: 30.5px;
+    text-decoration-line: none;
+  }
+  
+  nav > a.active {
+    text-decoration-line: underline;
+  }
+  
+  nav {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #979797;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 18px;
+  }
+  
+  section {
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #979797;
+    margin: 20px 0;
+  }
+  
+  input[type="submit"] {
+    background: #03a8d8;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  
+  input[type="submit"] {
+    cursor: pointer;
+  }
+  
+  input,
+  select {
+    font-family: "Open Sans", sans-serif;
+    background: #ffffff;
+    border: 1px solid #979797;
+    border-radius: 4px;
+    padding: 7px 9.5px 9px 9.5px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  .inputForm form{
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-template-rows: repeat(5,50px);
+    grid-gap: 10px;
+  }
+  .inputForm p{
+    width: 10%;
+  }
+  .text-input{
+    display: flex;
+    flex-direction: row;
+  }
+  .important-input{
+    grid-column: 1 / 6;
+    grid-row: 1 / 4;
+    font-size: 40px;
+    font-style: italic;
+  }
+  .important-input input{
+    font-size: 40px;
+
+  }
+
+  .other-input{
+    display: grid;
+    grid-column: span 4;
+    grid-gap:0;
+  }
+  .inputForm button{
+    width: calc(100% -20px);
+    margin-bottom: 20px;
+    padding: 0%;
+    background-color: #03a8d8;
+    border-style: none;
+    grid-row: span 2;
+    
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+
+  }
+
+#AppointmentForm form{
+  grid-template-rows: repeat(8,50px);
+  grid-template-columns: repeat(5,auto);
+}
+#AppointmentForm .other-input{
+  grid-column: span 5;
+
+}
+  .tile-list{
+    width: 100%;
+
+    display: grid;
+    justify-content: center;
+
+    grid-template-columns: repeat(5,270px);
+    grid-template-rows: auto;
+    grid-gap: 10px;
+  }
+#AppointmentForm .important-input{
+    grid-column: 1/4;
+}
+#AppointmentForm .important-input{
+  grid-column: 1/5;
+}
+#AppointmentForm button{
+  grid-column: 5/6;
+  grid-row: 1/4;
+  margin-bottom: 10px;
+}
+  .tile-container {
+    border-radius: 100px;
+  }
+  
+
+  .tile-title{
+    margin: 0% 2px;
+    font-size: 20px;
+    padding: 10px 2px;
+    font-weight: bold;
+    color: white;
+    overflow-x: hidden;
+  }
+
+  .tile-img {
+    width: 100%;
+
+  }
+  .tile-data{
+    background-color: #009fd0;
+  }
+  .tile-data img{
+
+    width: 100%;
+    aspect-ratio: 1/1;
+  }
+  .tile-data p{
+
+    color: white;
+
+
+  }
+  .tile-data-details{
+    margin-top: auto;
+    margin-bottom: 10px;
+  }
+  .tile-data-details p{
+    padding: 0%;
+    margin:2px;
+    font-size: smaller;
+  }
+  .tileButtons{
+    height: 20px;
+    margin-left: auto;
+  }
+  
